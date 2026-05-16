@@ -107,9 +107,10 @@ final class CalendarViewModel {
       ))
     }
     
-    let trailing = (7 - result.count % 7) % 7
-    for i in 0..<trailing {
-      guard let date = calendar.date(byAdding: .day, value: i + 1, to: result.last?.date ?? startOfMonth) else { continue }
+    let trailing = max(0, 42 - result.count)
+    for _ in 0..<trailing {
+      guard let lastDate = result.last?.date,
+            let date = calendar.date(byAdding: .day, value: 1, to: lastDate) else { continue }
       let dayNumber = calendar.component(.day, from: date)
       result.append(CalendarDay(
         date: date,
