@@ -13,6 +13,12 @@ xcuserdata/
 *.xcscmblueprint
 *.xccheckout
 
+# 글로벌 .gitignore의 *.xcodeproj 제외 규칙 무력화 (이 프로젝트는 xcodeproj를 직접 커밋함)
+!*.xcodeproj
+!*.xcodeproj/**
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
 # Xcode - User-specific
 *.moved-aside
 *.hmap
