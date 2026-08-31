@@ -38,6 +38,8 @@ open ProjectA/ProjectA.xcodeproj
 
 ## Project A-Z
 
+실무에서 다뤄온 기술을 단계별로 정리하는 프로젝트입니다.
+
 | | 추가 스택 |
 |---|---|
 | A | UIKit + MVVM |
