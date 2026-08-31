@@ -50,8 +50,8 @@ open ProjectA/ProjectA.xcodeproj
 | F | XCTest |
 | G | SwiftUI |
 | H | SPM 모듈화 |
-| I | Tuist |
-| J | Micro Feature Architecture |
+| I | Micro Feature Architecture |
+| J | Tuist |
 | K | Core Data |
 | L | CloudKit |
 | M | APNs |
